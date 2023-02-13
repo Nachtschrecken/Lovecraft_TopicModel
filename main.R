@@ -3,7 +3,7 @@ library(quanteda)
 require(topicmodels)
 
 #--------------------------------------------------------------------------------------------------------------------------------
-# 00 - Prepare Data
+# 00 - Prepare the Data
 
 textdata <- read.csv("./data/sotu_paragraphs.csv", sep = ";", encoding = "UTF-8")
 
