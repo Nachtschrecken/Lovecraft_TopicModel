@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1676628750 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1676628750
-  "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" 1676628749 974 e93cbccfe03810a1acd97f5f056871f0 ""
+["pdflatex"] 1676982110 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1676982111
+  "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" 1676665145 975 51d18045498ae69edca604eea899d7e8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -46,9 +46,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668604032 2826445 3ece30bd92e67d6a7f3fc2e024fa56e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "ausarbeitung.aux" 1676628750 1051 8b9decfae8aace564725b52d52b79d30 "pdflatex"
-  "ausarbeitung.tex" 1676628749 974 e93cbccfe03810a1acd97f5f056871f0 ""
-  "kapitel/01_introduction.tex" 1676627707 22 5c23bcd9d46cf48d2292896666a8a8fc ""
+  "ausarbeitung.aux" 1676982110 1051 853214bd9a6aa76ae448d2b2d2b78e31 "pdflatex"
+  "ausarbeitung.tex" 1676665145 975 51d18045498ae69edca604eea899d7e8 ""
+  "kapitel/01_introduction.tex" 1676982110 2971 9005e79c56e389671484bb4e016a4ce1 ""
   "kapitel/02_researchAgenda.tex" 1676627699 25 a710706acf8f06561e50acbd9bb70a08 ""
   "kapitel/03_data.tex" 1676627693 23 f40f0c4832eefb1b76ba2ddf5c86aae3 ""
   "kapitel/04_methods.tex" 1676627736 26 5308db4dfeb2c239adb05aaeee4018c6 ""

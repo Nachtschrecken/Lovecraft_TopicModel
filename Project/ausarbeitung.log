@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  17 FEB 2023 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  21 FEB 2023 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,22 +240,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
-(./kapitel/01_introduction.tex) (./kapitel/02_researchAgenda.tex) (./kapitel/03_data.tex) (./kapitel/04_methods.tex) (./kapitel/05_related.tex) (./kapitel/06_experiment.tex) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [1
+(./kapitel/01_introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ausarbeitung.aux) ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--25
+
+ []
+
+) (./kapitel/02_researchAgenda.tex) (./kapitel/03_data.tex) (./kapitel/04_methods.tex) (./kapitel/05_related.tex) (./kapitel/06_experiment.tex) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
  4517 strings out of 478268
  78994 string characters out of 5846346
- 474206 words of memory out of 5000000
+ 481206 words of memory out of 5000000
  22658 multiletter control sequences out of 15000+600000
  470164 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,5n,77p,316b,137s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ausarbeitung.pdf (1 page, 36954 bytes).
+Output written on ausarbeitung.pdf (2 pages, 43727 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
