@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1676986431 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1676986431
+["pdflatex"] 1676986553 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1676986553
   "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" 1676986430 975 00172c06661dffb885efc8ee837c4f8e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -45,11 +45,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668604032 2826445 3ece30bd92e67d6a7f3fc2e024fa56e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "ausarbeitung.aux" 1676986431 1031 928afefd03cf269c87252f97b608c509 "pdflatex"
+  "ausarbeitung.aux" 1676986553 1031 db1d31b807563f3275348a5e2a34e5c5 "pdflatex"
   "ausarbeitung.tex" 1676986430 975 00172c06661dffb885efc8ee837c4f8e ""
   "kapitel/01_introduction.tex" 1676982110 2971 9005e79c56e389671484bb4e016a4ce1 ""
   "kapitel/02_researchAgenda.tex" 1676986381 3173 dcf0a223744e89bc0f133d9494d2467b ""
-  "kapitel/03_data.tex" 1676986412 23 f40f0c4832eefb1b76ba2ddf5c86aae3 ""
+  "kapitel/03_data.tex" 1676986552 33 56dad4cced4b4d3505c599f18569f835 ""
   "kapitel/04_methods.tex" 1676627736 26 5308db4dfeb2c239adb05aaeee4018c6 ""
   "kapitel/05_related.tex" 1676627781 22 676c97c4e6ce671ac8191c949fca174f ""
   "kapitel/06_experiment.tex" 1676627804 27 60be326abaa08448ed8819dae40c194d ""
