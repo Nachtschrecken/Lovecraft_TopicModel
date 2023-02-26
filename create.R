@@ -1,3 +1,10 @@
+# This file creates the csv out of the provided text files
+#
+# Text files should contain the following in direct order:
+# TITLE, followed by empty line
+# Date, followed by empty line
+# Raw Text, paragraphs seperated by empty lines
+
 library(stringr)
 
 # Structure to load all files

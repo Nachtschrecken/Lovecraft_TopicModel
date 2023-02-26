@@ -1,3 +1,5 @@
+# This file executes the topic modeling on the provided csv and language options
+
 options(stringsAsFactors = FALSE)
 library(quanteda)
 require(topicmodels)
