@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  21 FEB 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  27 FEB 2023 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -265,20 +265,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--26
 
  []
 
-) (./kapitel/03_data.tex) (./kapitel/04_methods.tex) (./kapitel/05_related.tex) (./kapitel/06_experiment.tex) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [2] [3] (./ausarbeitung.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+) (./kapitel/03_data.tex [2]
+Underfull \hbox (badness 10000) in paragraph at lines 3--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--55
+
+ []
+
+[3]) (./kapitel/04_methods.tex) (./kapitel/05_related.tex) (./kapitel/06_experiment.tex) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [4] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 4456 strings out of 478268
- 78108 string characters out of 5846346
- 480178 words of memory out of 5000000
- 22600 multiletter control sequences out of 15000+600000
- 470164 words of font info for 31 fonts, out of 8000000 for 9000
+ 4460 strings out of 478268
+ 78165 string characters out of 5846346
+ 482178 words of memory out of 5000000
+ 22603 multiletter control sequences out of 15000+600000
+ 470505 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,5n,77p,316b,115s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ausarbeitung.pdf (3 pages, 47886 bytes).
+ 68i,5n,77p,316b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on ausarbeitung.pdf (4 pages, 60941 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

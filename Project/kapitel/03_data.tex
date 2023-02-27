@@ -1,3 +1,56 @@
 \section{Data Overview}
 
-The data
+The data for this project can be found on Kaggle. We decided to go with this dataset because 
+it features all of Lovecraft’s written texts in .txt. format, which makes it easy to process 
+the data. All stories exist in public domain and are not subject to copyright. Due to the 
+stories being public domain, and more datasets being available online as well as raw HTML 
+texts available, we had many sources to choose from. A comparison with other sources and 
+physical prints of stories does not indicate any biases or alteration in the texts. Though 
+we have found some works in the dataset that are not solely written by Lovecraft, since he 
+collaborated with many other authors of his time and even took ghostwriting commissions. 
+Another problem also occured with other datasets, where the earliest works of Lovecraft 
+are missing. We decided to still go with this dataset and remove works which we don’t want 
+to include. Since our research question wants to only cover Lovecraft’s ideas and writings, 
+the influence from other authors or commissioners could alter the results. That’s because 
+the ideas of Lovecraft are not really present in these specific writings, though his 
+stylometry may be the same.\\
+
+The dataset contains 102 works of Lovecraft, including all collaborations. As we just 
+mentioned, collaborations, revisions and ghost writings are not subject of this project 
+and will be removed. An overview of all the works written solely by Lovecraft, his fiction, 
+can be found in his bibliography on Wikipedia. In this case only his ‘fiction’ will be 
+included in this project as well as some of his works found under ‘Juvenilia’, which 
+include his earliest writings when he was young. Also not included in this project are 
+his poetry works, philosophical works and scientific works since they are either too 
+short or provide no information in regard to his mythos and lore. After only keeping 
+the works of Lovecraft from the bibliography the dataset has remaining 70 stories. 
+These works can be distinguished into short stories, novellas, or even fragments from 
+letters or novellas. Lovecraft’s works largely vary in length, some just a few pages, 
+and other whole novellas. Fragments could also contain just a few paragraphs. One example 
+is the story ‘Azatoth’ (written June 1922), which is very short in length and was 
+supposed to be part of a whole novella, though only this fragment survived. It is currently 
+unknown how many such fragments were lost, but his wife admitted to have burned a lot of 
+his letters. If these included other fragments or whole works of Lovecraft not yet 
+published or copied at that time, that means there were works which are lost forever.\\
+
+The 70 works in this modified dataset are .txt documents. The text files contain the 
+title and the raw text. We formatted the files using R and pasted them into a .csv 
+format. In this process we also added the dates as a second row to the text and manually 
+put another line between paragraphs process them using regular expressions. The file to 
+process the dataset can be found in the repository as ‘format.r’. The .csv file contains 
+for every text the text\_id, then for every paragraph of the text the doc\_id, the title, 
+the date, and the paragraph containing the text. This way we can later use topic modeling 
+on the csv to create a timeline-like plot of the main themes. The dates found in different 
+sources can be misleading, since some stories were published after Lovecraft’s death. 
+One example is the story ‘The Case of Charles Dexter Ward’, which was written in 1927, 
+partly published in 1941, and fully published in 1943, while Lovecraft already died in 
+1937. The dates we manually added to each file represents the date a work was written 
+as provided on WikiSource. This corresponds better to his personal life and events. 
+For dates where only the year is provided (see ‘The Alchemist’, 1908) or no explicit 
+month (see ‘The Street’, late 1919) we used proper months according to quarters or the 
+beginning of seasons. For plain years we added the January of that year. Taking into 
+account publishing dates is no option, since they do not reflect Lovecraft’s personal 
+events, may not be in order, or even have been published after his death as already 
+mentioned.\\
+
+
