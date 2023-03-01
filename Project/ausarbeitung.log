@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  1 MAR 2023 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  1 MAR 2023 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,7 +300,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--1
 
  []
 
-[4]) (./kapitel/06_experiment.tex) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [5] (./ausarbeitung.aux) ) 
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--24
+
+ []
+
+) (./kapitel/06_experiment.tex
+Underfull \hbox (badness 10000) in paragraph at lines 25--1
+
+ []
+
+) (./kapitel/07_results.tex) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [5] [6] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
  4460 strings out of 478268
  78165 string characters out of 5846346
@@ -310,10 +330,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,5n,77p,316b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on ausarbeitung.pdf (5 pages, 63776 bytes).
+Output written on ausarbeitung.pdf (6 pages, 65938 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
