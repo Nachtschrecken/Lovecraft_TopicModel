@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1677774875 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1677774875
+["pdflatex"] 1677778163 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1677778164
   "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/ausarbeitung.tex" 1677768112 1018 d4127674db4d72a3aaf22c8728e62608 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -48,14 +48,14 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668604032 2826445 3ece30bd92e67d6a7f3fc2e024fa56e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "ausarbeitung.aux" 1677774875 1031 34fd74f4560fce937ac8e1ce19df5092 "pdflatex"
+  "ausarbeitung.aux" 1677778164 1031 34fd74f4560fce937ac8e1ce19df5092 "pdflatex"
   "ausarbeitung.tex" 1677768112 1018 d4127674db4d72a3aaf22c8728e62608 ""
   "kapitel/01_introduction.tex" 1676982110 2971 9005e79c56e389671484bb4e016a4ce1 ""
   "kapitel/02_researchAgenda.tex" 1677515856 3689 59f6c9ed85f07a74eafc2d900804c959 ""
   "kapitel/03_data.tex" 1677771424 4364 35302f46aa4e0c8227f3529ff723f403 ""
   "kapitel/04_methods.tex" 1677771428 3231 ee79c807521a044e7f5709341f308313 ""
   "kapitel/05_related.tex" 1677771430 2351 519d9c5c13fe33dd596426f883c9ddeb ""
-  "kapitel/06_experiment.tex" 1677774875 3125 101de24b0618b6f809a96d890d627a5c ""
+  "kapitel/06_experiment.tex" 1677778163 3099 d3d865c2ee2caef700bfcba77584c75c ""
   "kapitel/07_results.tex" 1676627826 32 51a16e7ff4c2bf3a57517db869b27bd0 ""
   "kapitel/08_conclusion.tex" 1676627841 20 b50204e17c0a475d3d65191e029fdf1d ""
   "kapitel/09_references.tex" 1676627855 20 085c03461d01b62530aeb7bb07636c48 ""

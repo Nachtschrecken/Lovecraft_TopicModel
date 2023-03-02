@@ -24,8 +24,8 @@ corpus_tokens <- corpus %>%
   tokens_replace(lemma_data$inflected_form, lemma_data$lemma, valuetype = "fixed") %>%
   tokens_remove(pattern = stopwords_extended, padding = T)
 
-collocations <- quanteda.textstats::textstat_collocations(corpus_tokens, min_count = 25)
-collocations <- collocations[1:250, ]
+collocations <- quanteda.textstats::textstat_collocations(corpus_tokens, min_count = 6)
+# collocations <- collocations[1:250, ]
 corpus_tokens <- tokens_compound(corpus_tokens, collocations)
 
 #--------------------------------------------------------------------------------------------------------------------------------
@@ -42,8 +42,9 @@ DTM <- corpus_tokens %>%
 
 dim(DTM)
 
-top10_terms <- c("unite_state", "past_year", "year_ago", "year_end",
-                 "government", "state", "country", "year", "make", "seek")
+top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place",
+                 "light", "mr", "ye", "akeley", "willett", "year", "side", "curwen",
+                 "night", "kind", "antique", "faint", "hideous", "singular")
 
 DTM <- DTM[, !(colnames(DTM) %in% top10_terms)]
 
@@ -59,13 +60,13 @@ textdata <- textdata[sel_idx, ]
 require(topicmodels)
 
 # number of topics
-K <- 20
+K <- 15
 
 # compute the LDA model, inference via n iterations of Gibbs sampling
 topicModel <- LDA(DTM, K, method="Gibbs", control=list(
-  iter = 500,
+  iter = 100000,
   seed = 1,
-  verbose = 25,
+  verbose = 10,
   alpha = 0.02))
 
 # have a look a some of the results (posterior distributions)
@@ -96,6 +97,31 @@ top5termsPerTopic <- terms(topicModel, 5)
 topicNames <- apply(top5termsPerTopic, 2, paste, collapse = " ")
 
 #--------------------------------------------------------------------------------------------------------------------------------
+# 04 - Topic Proportions over time
+
+library(ggplot2)
+library(reshape2)
+require(pals)
+
+# append decade information for aggregation
+textdata$decade <- paste0(substr(textdata$date, 0, 4), "")
+
+# get mean topic proportions per decade
+topic_proportion_per_decade <- aggregate(theta, by = list(decade = textdata$decade), mean)
+
+# set topic names to aggregated columns
+colnames(topic_proportion_per_decade)[2:(K+1)] <- topicNames
+
+# reshape data frame
+vizDataFrame <- melt(topic_proportion_per_decade, id.vars = "decade")
+
+# plot topic proportions per deacde as bar plot
+ggplot(vizDataFrame, aes(x=decade, y=value, fill=variable)) +
+  geom_bar(stat = "identity") + ylab("proportion") +
+  scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "decade") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+#--------------------------------------------------------------------------------------------------------------------------------
 # 02 - Visualization
 
 # LDAvis browser
@@ -111,62 +137,15 @@ serVis(json)
 # 03 - Filtering Documents
 
 # you can set this manually ...
-topicToFilter <- 6
-
-# ... or have it selected by a term in the topic name
-topicToFilter <- grep("mexico ", topicNames)[1]
+topicToFilter <- 5
 
 # minimum share of content must be attributed to the
 
 # selected topic
 topicThreshold <- 0.1
 selectedDocumentIndexes <- (theta[, topicToFilter] >= topicThreshold)
-filteredCorpus <- sotu_corpus %>%
+filteredCorpus <- corpus %>%
   corpus_subset(subset = selectedDocumentIndexes)
 
 # show length of filtered corpus
 filteredCorpus
-
-#--------------------------------------------------------------------------------------------------------------------------------
-# 04 - Topic Proportions over time
-
-# append decade information for aggregation
-textdata$decade <- paste0(substr(textdata$date, 0, 3), "0")
-
-# get mean topic proportions per decade
-topic_proportion_per_decade <- aggregate(theta, by = list(decade = textdata$decade), mean)
-
-# set topic names to aggregated columns
-colnames(topic_proportion_per_decade)[2:(K+1)] <- topicNames
-
-# reshape data frame
-vizDataFrame <- melt(topic_proportion_per_decade, id.vars = "decade")
-
-# plot topic proportions per deacde as bar plot
-library(ggplot2)
-library(reshape2)
-
-require(pals)
-ggplot(vizDataFrame, aes(x=decade, y=value, fill=variable)) +
-  geom_bar(stat = "identity") + ylab("proportion") +
-  scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "decade") +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
-require(wordcloud2)
-
-# visualize topics as word cloud
-topicToViz <- 11 # change for your own topic of interest
-
-# Or select a topic by a term contained in its name
-topicToViz <- grep("mexico", topicNames)[1]
-
-# select to 40 most probable terms from the topic by sorting the term-topic-probability vector in decreasing order
-top40terms <- sort(tmResult$terms[topicToViz, ], decreasing = TRUE)[1:40]
-words <- names(top40terms)
-
-# extract the probabilites of each of the 40 terms
-probabilities <- sort(tmResult$terms[topicToViz, ], decreasing = TRUE)[1:40]
-
-# visualize the terms as wordcloud
-wordcloud2(data.frame(words, probabilities), shuffle = FALSE)
-
