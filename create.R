@@ -14,7 +14,6 @@ text_id <- 0
 
 # basic structure for data frames
 df <- data.frame(
-          doc_id=character(), 
           text_id=character(),
           title=character(), 
           date=character(), 
@@ -37,12 +36,18 @@ for (file in file_list) {
   
   # Create a data frame with the paragraph numbers and text
   df <- rbind(df, data.frame(
-            doc_id = 1:(length(unlist(paragraphs))-2), 
             text_id = text_id,
             title = str_split_fixed(text, "\\n\\n", 3)[,1], 
             date = str_split_fixed(text, "\\n\\n", 3)[,2], 
             text = unlist(paragraphs)[-c(1:2)]))
 }
+
+# create ids for csv
+doc_id = c(1:3896)
+
+# append ids to dataframe
+df$doc_id <- doc_id
+df <- df[, c(5,1,2,3,4)]
 
 # Write the data frame to a CSV file
 write.csv(df, "paragraphs.csv", row.names = FALSE)
