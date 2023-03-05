@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  5 MAR 2023 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  5 MAR 2023 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,24 +316,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--40
  []
 
 ) (./kapitel/07_results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 41--1
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-) (./kapitel/08_conclusion.tex) (./kapitel/09_references.tex) [6] [7] (./ausarbeitung.aux) ) 
+[6]
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot_zoom.png, id=24, 1927.2pt x 1059.96pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot_zoom.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot_zoom.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot_zoom.png  used on input line 9.
+(pdftex.def)             Requested size: 469.75499pt x 258.35814pt.
+
+Overfull \hbox (14.72375pt too wide) in paragraph at lines 9--11
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
+
+ []
+
+) (./kapitel/08_conclusion.tex [7 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot_zoom.png>]) (./kapitel/09_references.tex) [8] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 4460 strings out of 478268
- 78165 string characters out of 5846346
+ 4469 strings out of 478268
+ 78844 string characters out of 5846346
  482178 words of memory out of 5000000
- 22603 multiletter control sequences out of 15000+600000
+ 22609 multiletter control sequences out of 15000+600000
  470505 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,5n,77p,316b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,5n,77p,354b,119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on ausarbeitung.pdf (7 pages, 69730 bytes).
+Output written on ausarbeitung.pdf (8 pages, 153531 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

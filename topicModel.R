@@ -42,8 +42,10 @@ DTM <- corpus_tokens %>%
 
 dim(DTM)
 
-top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place", "em", "aout", "john", "chapter", "give",
-                 "light", "mr", "ye", "akeley", "willett", "year", "side", "curwen",
+top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place", "em", "leave",
+                 "light", "mr", "ye", "akeley", "willett", "year", "side", "curwen", "aout", "whateley",
+                 "john", "chapter", "give", "long", "open", "open", "back", "git", "malone", "part",
+                 "ammi", "ward", "nahum", "fer", "danforth",
                  "night", "kind", "antique", "faint", "hideous", "singular")
 
 DTM <- DTM[, !(colnames(DTM) %in% top10_terms)]
@@ -64,7 +66,7 @@ K <- 15
 
 # compute the LDA model, inference via n iterations of Gibbs sampling
 topicModel <- LDA(DTM, K, method="Gibbs", control=list(
-  iter = 100000,
+  iter = 200000,
   seed = 1,
   verbose = 10,
   alpha = 0.02))
@@ -105,21 +107,21 @@ require(pals)
 
 # append decade information for aggregation
 # textdata$decade <- paste0(substr(textdata$date, 0, 4), "")
-textdata$decade <- textdata$text_id
+textdata$work <- textdata$text_id
 
 # get mean topic proportions per decade
-topic_proportion_per_decade <- aggregate(theta, by = list(decade = textdata$decade), mean)
+topic_proportion_per_work <- aggregate(theta, by = list(work = textdata$work), mean)
 
 # set topic names to aggregated columns
-colnames(topic_proportion_per_decade)[2:(K+1)] <- topicNames
+colnames(topic_proportion_per_work)[2:(K+1)] <- topicNames
 
 # reshape data frame
-vizDataFrame <- melt(topic_proportion_per_decade, id.vars = "decade")
+vizDataFrame <- melt(topic_proportion_per_work, id.vars = "work")
 
 # plot topic proportions per deacde as bar plot
-ggplot(vizDataFrame, aes(x=decade, y=value, fill=variable)) +
+ggplot(vizDataFrame, aes(x=work, y=value, fill=variable)) +
   geom_bar(stat = "identity") + ylab("proportion") +
-  scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "decade") +
+  scale_fill_manual(values = paste0(alphabet(20), "FF"), name = "work") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 #--------------------------------------------------------------------------------------------------------------------------------

@@ -43,7 +43,7 @@ for (file in file_list) {
 }
 
 # create ids for csv
-doc_id = c(1:3896)
+doc_id = c(1:3897)
 
 # append ids to dataframe
 df$doc_id <- doc_id
