@@ -35,18 +35,18 @@ corpus_tokens <- tokens_compound(corpus_tokens, collocations)
 DTM <- corpus_tokens %>%
   tokens_remove("") %>%
   dfm() %>%
-  dfm_trim(min_docfreq = 3)
+  dfm_trim(min_docfreq = 5)
 
 # have a look at the number of documents and terms in the
 # matrix
 
 dim(DTM)
 
-top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place", "em", "leave",
-                 "light", "mr", "ye", "akeley", "willett", "year", "side", "curwen", "aout", "whateley",
-                 "john", "chapter", "give", "long", "open", "open", "back", "git", "malone", "part",
-                 "ammi", "ward", "nahum", "fer", "danforth",
-                 "night", "kind", "antique", "faint", "hideous", "singular")
+top10_terms <- c("great", "man", "make", "hear", "find", "em", "leave",
+                 "light", "mr", "ye", "akeley", "willett", "year", "side", "aout", "whateley",
+                 "john", "chapter", "give", "long", "open",  "back", "git", "malone", "part",
+                 "ammi", "ward", "nahum", "fer", "danforth", "ermengarde",
+                 "kind", "faint", "hideous", "singular")
 
 DTM <- DTM[, !(colnames(DTM) %in% top10_terms)]
 
@@ -66,10 +66,10 @@ K <- 15
 
 # compute the LDA model, inference via n iterations of Gibbs sampling
 topicModel <- LDA(DTM, K, method="Gibbs", control=list(
-  iter = 200000,
+  iter = 10000,
   seed = 1,
   verbose = 10,
-  alpha = 0.02))
+  alpha = 0.05))
 
 # have a look a some of the results (posterior distributions)
 tmResult <- posterior(topicModel)
