@@ -1,34 +1,47 @@
 \section{Experiment Design}
 
-We apply the computational approach of topic modeling by using the R programming language and orient
-on an approach provided by A. Niekler. The R scripts as well as the optimized dataset, stopwords and 
-a simple dictionary can all be found in our repository on GitHub. The file dict.txt contains a baseform 
-of english vocabulary with stemmed word forms used to stem words and get their original lemmatization. 
-For the processing of data we also remove stopwords (found in stopwords.txt) since they tend to occur 
-as noise in the retrieved topics. Furthermore, we will remove some words in the preprocessing step 
-that occur often in Lovecraft works but do not really represent specific related motifs for each text.\\
+We apply the computational approach of topic modeling by using the R programming language and 
+orient on an approach provided by A. Niekler. The R scripts as well as the optimized dataset, 
+stopwords and a simple dictionary can all be found in our repository on GitHub. The file 
+dict.txt contains a baseform of english vocabulary with stemmed word forms used to stem words 
+and get their original lemmatization. For the processing of data we also remove stopwords 
+(found in stopwords.txt) since they tend to occur as noise in the retrieved topics. 
+Furthermore, we will remove some words in the preprocessing step that occur often in Lovecraft 
+works but do not really represent specific related motifs for each text. For this project 
+we defined the terms and names to drop because of frequency in top\_words.txt after reviewing 
+the word count and first iterations of the model. We dropped names as well since they tend 
+to occur more frequent than other words and did not yield any more information in the first 
+iterations. On name we did keep for this experiment is ‘Carter’. That’s because Lovecraft 
+maybe used the character Randolph Carter as his alter ego in the stories, since they shared 
+many personal traits.\\
 
-After preprocessing the data, we will calculate the topic model. For the topic model calculation we 
-will use a Latent Dirichlet Allocation model using the R package topicmodels. LDA (Latent Dirichlet 
-Allocation) is a statistical model used for topic modeling in natural language processing. This model 
-assumes that documents are generated from a mixture of topics, and each topic is represented as a 
-distribution over words. In the calculation process we get the topic model by only considering terms
-with a certain minimum frequency in the body of F=3. This is to reduce the overhead of topic that
-will certainly not be valuable at all and can already be dropped in this step. The next step 
-includes the already mentioned drop of domain specific words. For LDA models, the number of topics 
-is the most important parameter to define. If K is too small, the collection is divided into a few very 
-general semantic contexts. If K is too large, the collection is divided into too many topics of which some 
-may overlap and others are hardly interpretable. After consulting on ‘Determining the Number of Topics to 
-Retain using Tools from Factor Analysis’ by Homles Finch, we decided to choose K=11 topics for our purpose. 
-To facilitate a qualitative control between the retrieved topics and original texts, we will work with two 
-corpus objects in this step. One being the preprocessed corpus to calculate the topic model overall and 
-another original corpus. For the parameters of R packages like topicmodels used in the R script files, 
-we varied them during the experiment process several times and sticked with the final version in our 
-repository since they reflect the best use for our research question.\\
+After preprocessing the data, we will calculate the topic model. For the topic model 
+calculation we will use a Latent Dirichlet Allocation model using the R package topicmodels. 
+LDA (Latent Dirichlet Allocation) is a statistical model used for topic modeling in natural 
+language processing. This model assumes that documents are generated from a mixture of topics, 
+and each topic is represented as a distribution over words. In the calculation process we get 
+the topic model by only considering terms with a certain minimum frequency in the body of F=3. 
+This is to reduce the overhead of topic that will certainly not be valuable at all and can 
+already be dropped in this step. The next step includes the already mentioned drop of domain 
+specific words. For LDA models, the number of topics is the most important parameter to 
+define. If K is too small, the collection is divided into a few very general semantic contexts. 
+If K is too large, the collection is divided into too many topics of which some may overlap 
+and others are hardly interpretable. After consulting on ‘Determining the Number of Topics 
+to Retain using Tools from Factor Analysis’ by Homles Finch, we decided to choose K=15 topics 
+for our purpose. To facilitate a qualitative control between the retrieved topics and original 
+texts, we will work with two corpus objects in this step. One being the preprocessed corpus 
+to calculate the topic model overall and another original corpus. For the parameters of R 
+packages like topicmodels used in the R script files, we varied them during the experiment 
+process several times and sticked with the final version in our repository since they reflect 
+the best use for our research question. The parameters are: a minimum of 6 counts per token 
+in the corpus, 100,000 iterations, 5 terms per topic, verbose of 10, and alpha of 0.2. Other 
+parameter options did not satisfy our purpose, were too short to give enough detail or too 
+long to compute without further advancements.\\
 
-After calculating the topic model, the details get visualized as results in different forms like a plot 
-representing a timeline using the ggplot package in R or using the LDAvis package in R to gain more 
-information on topics. LDAvis calculates the importance of a topic by determining how much probability 
-is assigned to the topics. We can also filter the topics in our advance, e.g. to filter for specific 
-names of monsters or places from the Cthulhu Mythos. With these results we can then pick the main themes 
-of Lovecraft’s works and compare them according to time and event in his personal life in the next chapter.
+After calculating the topic model, the details get visualized as results in different forms 
+like a plot representing a timeline using the ggplot package in R or using the LDAvis package 
+in R to gain more information on topics. LDAvis calculates the importance of a topic by 
+determining how much probability is assigned to the topics. We can also filter the topics 
+in our advance, e.g. to filter for specific names of monsters or places from the Cthulhu 
+Mythos. With these results we can then pick the main themes of Lovecraft’s works and compare 
+them according to time and event in his personal life in the chapter ‘Results and Discussion’.\\

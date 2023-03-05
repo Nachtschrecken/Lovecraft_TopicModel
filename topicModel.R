@@ -42,7 +42,7 @@ DTM <- corpus_tokens %>%
 
 dim(DTM)
 
-top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place",
+top10_terms <- c("house", "great", "thing", "man", "make", "hear", "find", "place", "em", "aout", "john", "chapter", "give",
                  "light", "mr", "ye", "akeley", "willett", "year", "side", "curwen",
                  "night", "kind", "antique", "faint", "hideous", "singular")
 
@@ -104,7 +104,8 @@ library(reshape2)
 require(pals)
 
 # append decade information for aggregation
-textdata$decade <- paste0(substr(textdata$date, 0, 4), "")
+# textdata$decade <- paste0(substr(textdata$date, 0, 4), "")
+textdata$decade <- textdata$text_id
 
 # get mean topic proportions per decade
 topic_proportion_per_decade <- aggregate(theta, by = list(decade = textdata$decade), mean)
