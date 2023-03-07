@@ -66,10 +66,10 @@ K <- 15
 
 # compute the LDA model, inference via n iterations of Gibbs sampling
 topicModel <- LDA(DTM, K, method="Gibbs", control=list(
-  iter = 10000,
+  iter = 100000,
   seed = 1,
   verbose = 10,
-  alpha = 0.05))
+  alpha = 0.01))
 
 # have a look a some of the results (posterior distributions)
 tmResult <- posterior(topicModel)
