@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  7 MAR 2023 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  7 MAR 2023 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -126,14 +126,34 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks22
-) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+)
+\csq@reset=\count279
+\csq@gtype=\count280
+\csq@glevel=\count281
+\csq@qlevel=\count282
+\csq@maxlvl=\count283
+\csq@tshold=\count284
+\csq@ltx@everypar=\toks23
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count278
+\babel@savecnt=\count285
 \U@D=\dimen158
 \l@unhyphenated=\language87
  (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count279
+\bbl@dirlevel=\count286
  (/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -142,36 +162,41 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
-)) (./ausarbeitung.aux)
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (./ausarbeitung.aux)
 \openout1 = `ausarbeitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
+\scratchcounter=\count287
 \scratchdimen=\dimen159
 \scratchbox=\box53
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count283
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count290
 \MPscratchDim=\dimen160
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -234,7 +259,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 
  []
 
@@ -326,20 +351,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--55
 
  []
 
-[7 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png>]) (./kapitel/08_conclusion.tex [8]) (./kapitel/09_references.tex) [9] (./ausarbeitung.aux) ) 
+[7 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png>] [8]
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png, id=33, 1514.65875pt x 960.08687pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png  used on input line 115.
+(pdftex.def)             Requested size: 472.03123pt x 299.20602pt.
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png, id=34, 1516.16437pt x 964.60374pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png  used on input line 122.
+(pdftex.def)             Requested size: 472.03123pt x 300.3046pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--136
+
+ []
+
+[9 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--145
+
+ []
+
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png, id=39, 1514.65875pt x 959.08313pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png  used on input line 148.
+(pdftex.def)             Requested size: 472.03123pt x 298.89322pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+[10 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png>]
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png, id=45, 756.8275pt x 932.48375pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png  used on input line 160.
+(pdftex.def)             Requested size: 231.2979pt x 284.98338pt.
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png, id=46, 755.32187pt x 930.47626pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png  used on input line 161.
+(pdftex.def)             Requested size: 231.2979pt x 284.92357pt.
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png, id=47, 1507.13063pt x 958.07938pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png  used on input line 179.
+(pdftex.def)             Requested size: 472.03123pt x 300.05693pt.
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png, id=48, 1505.12312pt x 960.08687pt>
+File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png Graphic file (type png)
+<use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png>
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png  used on input line 186.
+(pdftex.def)             Requested size: 472.03123pt x 301.09584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--210
+
+ []
+
+[11 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png>]) (./kapitel/08_conclusion.tex [12 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png> </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png>]) (./kapitel/09_references.tex) [13 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png>] [14 </Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png>] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 4467 strings out of 478268
- 78781 string characters out of 5846346
- 483186 words of memory out of 5000000
- 22608 multiletter control sequences out of 15000+600000
- 470164 words of font info for 31 fonts, out of 8000000 for 9000
+ 5458 strings out of 478268
+ 97794 string characters out of 5846346
+ 508536 words of memory out of 5000000
+ 23567 multiletter control sequences out of 15000+600000
+ 473623 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,77p,354b,234s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ausarbeitung.pdf (9 pages, 116690 bytes).
+ 68i,6n,77p,524b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ausarbeitung.pdf (14 pages, 1872278 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
