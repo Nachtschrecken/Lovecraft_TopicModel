@@ -1,0 +1,41 @@
+\section{Method Overview}
+
+In the digital humanities, there are four main methods to work on data and achieve information. 
+Stylometry is a method to find textual similarities between texts, Network analysis can be used 
+to find relations in data, Geovisualization is used to representing data on maps, and the fourth 
+method, which we will use for this project, is topic modeling. Topic modeling is a method to 
+gather information from texts regarding the content. Using this computational approach we can 
+uncover the main themes and topics from texts, not just by using a frequentist method with the 
+most words used, but by putting context in the found information. A topic model achieves this 
+while it discovers the degree to which each document exhibits those topics. That way we can 
+build a statistical lens that encodes our specific knowledge, theories, and assumptions about 
+texts \cite{blei}.\\
+
+Using topic modeling on the collection of Lovecraft's works will help us uncover the most 
+important themes per text regarding not only the frequentist quantity of certain topics but, 
+as already mentioned, the contextual frequency. We want to know what topic dominates each text, 
+and topic modeling is exactly the tool we need for that. By writing short scripts in the 
+programming language R, we can compute the main topics easily and even visualize them in plots. 
+For example, the R package \textit{ggplot2} is an easy tool to plot the results in a timeline-style plot. \\
+
+We will apply topic modeling to each text. This is done because if we would use chunks of text 
+over the whole concatenated collection, we would lose the important context. Especially in this 
+literature of fantasy and horror, we need to keep the topics regarding their text. In one text 
+like 'The Thing on the Doorstep' (written 1933) the main topic may refer to \textit{creature,
+darkness, house} or others. But another text like 'The Nameless City' (written 1921) may 
+yield topics like \textit{place, sculpture} and \textit{ancient}. When using chunks of a concatenated 
+collection of his writings, we would use the context of each text. Therefore we work on each 
+text separately, even if some texts are significantly shorter than others.\\
+
+To reflect on some biases with this approach, we have to particularly emphasize this problem: 
+Some works of Lovecraft are shorter than others. Though we do not expect any major differences 
+in contextual topics between short and long texts, this has to be noted. A measure we use to 
+counter this is computing a topic model using paragraphs of similar size for every work. 
+According to the word count of Lovecraft's works the length of his works linearly increases 
+with the years of writing. Another major bias in topic modeling is the approach of Natural 
+Language Processing (NLP). For our purpose, we will work with English libraries, stopwords, 
+and dictionaries. This could lead to problems when it comes to topics that do not reflect the 
+English language. Lovecraft is known for his monsters and cosmic words like \textit{Necronomicon} or 
+\textit{Cthulhu}. For this, we will focus on topics and words that are subject to the English language 
+and can be covered by NLP. We will also keep in mind that in Lovecraft's style, specific words 
+tend to occur more often than others in the literary context.

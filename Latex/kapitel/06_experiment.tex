@@ -1,0 +1,45 @@
+\section{Experiment Design}
+
+We applied the computational approach of topic modeling by using the R programming language. 
+The R scripts as well as the optimized dataset, 
+stopwords, and a simple dictionary can all be found in our repository on GitHub. The file \texttt{dict.txt} 
+contains a base form of English vocabulary with stemmed word forms used to stem words and get their 
+original lemmatization. For the processing of data, we also removed stopwords (found in \texttt{stopwords.txt}) 
+since they tend to occur as noise in the retrieved topics. Furthermore, we removed some words in the 
+preprocessing step that occurs often in Lovecraft's works but do not really represent specifically 
+related motifs for each text. For this project, we defined the terms and names to drop because of 
+frequency in \texttt{top\_words.txt} after reviewing the word count and first iterations of the model. We 
+dropped unimportant names as well since they tend to occur more frequently than other words and 
+did not yield any more information in the first iterations. We also kept some important names of the 
+mythos, like \textit{Gilman} or \textit{Charles}. One name we also kept for this experiment 
+is \textit{Carter}. That's because Lovecraft maybe used the character Randolph Carter as his alter ego in 
+the stories since they shared many personality traits.\\
+
+After preprocessing the data, we calculated the topic model. For the topic model calculation, 
+we used a Latent Dirichlet Allocation model using the R package topicmodels. LDA (Latent Dirichlet 
+Allocation) is a statistical model used for topic modeling in natural language processing. This 
+model assumes that documents are generated from a mixture of topics, and each topic is represented 
+as a distribution over words. In the calculation process, we get the topic model by only 
+considering terms with a certain minimum frequency in the body of $F=3$. This is to reduce the 
+overhead of topics that will certainly not be valuable at all and can already be dropped in 
+this step. The next step included the already mentioned drop of domain-specific words. For LDA 
+models, the number of topics is the most important parameter to define. Choosing too many topics 
+may result in various linkings between them and therefore lowers the quality of results. 
+After consulting on 'Determining the Number of Topics to Retain using Tools from Factor Analysis' 
+by Finch Holmes \cite{holmes}, we decided to choose $K=15$ topics for our purpose. To facilitate a qualitative 
+control between the retrieved topics and original texts, we worked with two corpus objects in 
+this step. One is the preprocessed corpus to calculate the topic model overall and the original 
+corpus. For the parameters of R packages like topicmodels used in the R script files, we varied 
+them during the experiment process several times and stuck with the final version in our repository 
+since they reflect the best use for our research question. The parameters are: a minimum of 6 
+counts per token in the corpus, 100,000 iterations, 5 terms per topic, verbose of 10, and alpha 
+of 0.2. Other parameter options did not satisfy our purpose, were too short to give enough detail, 
+or too long to compute without further advancements.\\
+
+After calculating the topic model, the details got visualized as results in different forms 
+like a plot representing a timeline using the \textit{ggplot} package or the \textit{LDAvis} package 
+in R to gain more information on topics. \textit{LDAvis} calculates the importance of a topic by determining 
+how much probability is assigned to the topics. We can also filter the topics in advance, e.g. 
+to check which terms occur more frequently in a topic. With these results, we then picked the 
+main themes of Lovecraft's works and compared them according to time and events in his personal 
+life in the chapter 'Results and Discussion'.
