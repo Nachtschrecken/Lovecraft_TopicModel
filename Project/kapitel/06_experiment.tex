@@ -1,7 +1,7 @@
 \section{Experiment Design}
 
-We applied the computational approach of topic modeling by using the R programming language and 
-orient on an approach provided by A. Niekler. The R scripts as well as the optimized dataset, 
+We applied the computational approach of topic modeling by using the R programming language. 
+The R scripts as well as the optimized dataset, 
 stopwords, and a simple dictionary can all be found in our repository on GitHub. The file \texttt{dict.txt} 
 contains a base form of English vocabulary with stemmed word forms used to stem words and get their 
 original lemmatization. For the processing of data, we also removed stopwords (found in \texttt{stopwords.txt}) 
@@ -23,11 +23,10 @@ as a distribution over words. In the calculation process, we get the topic model
 considering terms with a certain minimum frequency in the body of $F=3$. This is to reduce the 
 overhead of topics that will certainly not be valuable at all and can already be dropped in 
 this step. The next step included the already mentioned drop of domain-specific words. For LDA 
-models, the number of topics is the most important parameter to define. If K is too small, the 
-collection is divided into a few very general semantic contexts. If K is too large, the collection 
-is divided into too many topics of which some may overlap and others are hardly interpretable. 
+models, the number of topics is the most important parameter to define. Choosing too many topics 
+may result in various linkings between them and therefore lowers the quality of results. 
 After consulting on 'Determining the Number of Topics to Retain using Tools from Factor Analysis' 
-by Homles Finch, we decided to choose $K=15$ topics for our purpose. To facilitate a qualitative 
+by Finch Holmes \cite{holmes}, we decided to choose $K=15$ topics for our purpose. To facilitate a qualitative 
 control between the retrieved topics and original texts, we worked with two corpus objects in 
 this step. One is the preprocessed corpus to calculate the topic model overall and the original 
 corpus. For the parameters of R packages like topicmodels used in the R script files, we varied 
