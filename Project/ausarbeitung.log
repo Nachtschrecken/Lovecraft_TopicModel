@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  7 MAR 2023 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.16)  7 MAR 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,7 +336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--39
  []
 
 [5]) (./kapitel/07_results.tex [6]
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png, id=23, 989.6975pt x 574.145pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png, id=26, 989.6975pt x 574.145pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png>
 Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/plot.png  used on input line 30.
@@ -357,17 +357,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--112
  []
 
 [8]
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png, id=33, 1499.6025pt x 866.23625pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png, id=36, 1499.6025pt x 866.23625pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png>
 Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png  used on input line 115.
 (pdftex.def)             Requested size: 472.03123pt x 272.65437pt.
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png, id=34, 1495.5875pt x 865.2325pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png, id=37, 1495.5875pt x 865.2325pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png>
 Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png  used on input line 122.
 (pdftex.def)             Requested size: 472.03123pt x 273.07777pt.
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png, id=35, 1501.10812pt x 857.70438pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png, id=38, 1501.10812pt x 857.70438pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png>
 Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png  used on input line 129.
@@ -383,32 +383,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--152
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--159
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
 
  []
 
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png, id=46, 748.29562pt x 840.13875pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png, id=48, 748.29562pt x 840.13875pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png>
-Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png  used on input line 162.
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png  used on input line 160.
 (pdftex.def)             Requested size: 231.2979pt x 259.68398pt.
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png, id=47, 748.29562pt x 836.62563pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png, id=49, 748.29562pt x 836.62563pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png>
-Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png  used on input line 163.
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png  used on input line 161.
 (pdftex.def)             Requested size: 231.2979pt x 258.59807pt.
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png, id=48, 1499.6025pt x 859.21pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png, id=50, 1499.6025pt x 859.21pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png>
-Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png  used on input line 170.
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png  used on input line 168.
 (pdftex.def)             Requested size: 472.03123pt x 270.44281pt.
-</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png, id=49, 1499.10063pt x 865.2325pt>
+</Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png, id=51, 1499.10063pt x 865.2325pt>
 File: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png Graphic file (type png)
 <use /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png>
-Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png  used on input line 177.
+Package pdftex.def Info: /Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png  used on input line 175.
 (pdftex.def)             Requested size: 472.03123pt x 272.43086pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--212
+Underfull \hbox (badness 10000) in paragraph at lines 191--210
 
  []
 
@@ -429,18 +429,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--30
 
 ) (./kapitel/09_references.tex [14]) [15] (./ausarbeitung.aux) ) 
 Here is how much of TeX's memory you used:
- 5457 strings out of 478268
- 97764 string characters out of 5846346
+ 5460 strings out of 478268
+ 97797 string characters out of 5846346
  510531 words of memory out of 5000000
- 23567 multiletter control sequences out of 15000+600000
- 473623 words of font info for 43 fonts, out of 8000000 for 9000
+ 23569 multiletter control sequences out of 15000+600000
+ 473791 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,77p,524b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ausarbeitung.pdf (15 pages, 1692848 bytes).
+ 68i,6n,77p,520b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ausarbeitung.pdf (15 pages, 1707630 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
