@@ -108,20 +108,27 @@ starting at work 65 where topics 4 and 14 become highly present and topic 1 havi
 higher share from work 68. Another explanation for this mix of topics during the last years could 
 be that Lovecraft had a hard time selling his longer stories and concentrated on ghostwriting and 
 non-fiction, resulting in the fictional works he wrote being less frequent but longer and more 
-focussed on different topics.
+focussed on different topics.\\
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/ldavis_model.png}
+    \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_model.png}
     \caption{LDAvis results}
     \label{fig:mesh2}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[p]
     \centering
     \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_03.png}
     \caption{LDAvis results, selected topic 3, $\lambda=1.0$}
     \label{fig:mesh3}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png}
+    \caption{LDAvis results, selected topic 2, $\lambda=1.0$}
+    \label{fig:mesh4}
 \end{figure}
 
 We also used the R library LDAvis to find correlations between these topics or terms that are heavily 
@@ -143,19 +150,14 @@ be described using these relevant terms. One common share across these relevant 
 vague description of the places, feelings, and situations it takes place in, matching Lovecraft’s 
 writing of most of the works from the dream cycle according to dreams he had himself.\\
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-1/ldavis_L-1_02.png}
-    \caption{LDAvis results, selected topic 2, $\lambda=1.0$}
-    \label{fig:mesh4}
-\end{figure}
+
 
 As seen in figure 4, Topic 2, which is associated with the time around his mother’s death, is 
 connected to matching terms like horror, fear, terrible, or nightmare. This undermines our expectation 
 that topic 2, though also present in earlier works, becomes more present because of his mother’s death 
 and yields a stable share for some time.\\
 
-\begin{figure}[ht]
+\begin{figure}[p]
     \centering
     \includegraphics[width=0.49\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_08.png}
     \includegraphics[width=0.49\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Project/images/ldavis_L-1_12.png}
@@ -163,18 +165,7 @@ and yields a stable share for some time.\\
     \label{fig:mesh5}
 \end{figure}
 
-In figures 5 we can see the relevant terms for topics 8 and 12, which match closest to his stay 
-in Brooklyn, cover place, people, wife, fear, and home. That is the most interesting insight because 
-as we have seen in figure 1 one can find patterns in the time frames when he moved to Brooklyn and 
-back to Providence. It is known that Lovecraft missed his home in Providence and ‘The Horror at 
-Red Hook’ (written 1925) is a good indicator of his coping with the situation. As Lovecraft 
-described the inspiration for that work himself in a letter to Clark Ashton Smith:
-
-\begin{displayquote}
-    \textit{The idea that black magic exists in secret today, or that hellish antique rites still exist in obscurity, is one that I have used and shall use again. When you see my new tale ‘The Horror at Red Hook’, you will see what use I make of the idea in connexion with the gangs of young loafers and herds of evil-looking foreigners that one sees everywhere in New York.}
-\end{displayquote}
-
-\begin{figure}[ht]
+\begin{figure}[p]
     \centering
     \includegraphics[width=1\textwidth]{/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png}
     \caption{LDAvis results, selected topic 10, $\lambda=0.6$}
@@ -187,6 +178,17 @@ described the inspiration for that work himself in a letter to Clark Ashton Smit
     \caption{LDAvis results, selected topic 11, $\lambda=0.2$}
     \label{fig:mesh7}
 \end{figure}
+
+In figures 5 we can see the relevant terms for topics 8 and 12, which match closest to his stay 
+in Brooklyn, cover place, people, wife, fear, and home. That is the most interesting insight because 
+as we have seen in figure 1 one can find patterns in the time frames when he moved to Brooklyn and 
+back to Providence. It is known that Lovecraft missed his home in Providence and ‘The Horror at 
+Red Hook’ (written 1925) is a good indicator of his coping with the situation. As Lovecraft 
+described the inspiration for that work himself in a letter to Clark Ashton Smith:
+
+\begin{displayquote}
+    \textit{The idea that black magic exists in secret today, or that hellish antique rites still exist in obscurity, is one that I have used and shall use again. When you see my new tale ‘The Horror at Red Hook’, you will see what use I make of the idea in connexion with the gangs of young loafers and herds of evil-looking foreigners that one sees everywhere in New York.}
+\end{displayquote}
 
 The last thing we want to cover is the fact that topic 10, which is present in most of his works 
 but more frequent in his youth and later works as seen in figure 1, covers terms that do not directly 
