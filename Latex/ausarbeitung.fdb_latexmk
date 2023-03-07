@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1678209809 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Latex/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1678209811
+["pdflatex"] 1678219812 "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Latex/ausarbeitung.tex" "ausarbeitung.pdf" "ausarbeitung" 1678219815
   "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/Latex/ausarbeitung.tex" 1678209770 1146 b7e9dc95f3921fc05f2cd1c777efb8e6 ""
   "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-02/11.png" 1678196669 419994 0ffd0b9e356d8c92e40e5a46bb8660f7 ""
   "/Users/ferriskleier/PECK/DigitalHumanities/Lovecraft_TopicModel/results/LDAvis_lambda-06/10.png" 1678196258 394593 f012040a76cebcc9308a554d6ef5f5af ""
@@ -92,8 +92,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668604032 2826445 3ece30bd92e67d6a7f3fc2e024fa56e1 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "ausarbeitung.aux" 1678209811 4045 b0ca961db8a832d555a21b62b873aa46 "pdflatex"
-  "ausarbeitung.out" 1678209811 945 571dea73a33caa93a68ac459c588d3bc "pdflatex"
+  "ausarbeitung.aux" 1678219814 4062 dca493ac7487dbe052c8a48a389bfec8 "pdflatex"
+  "ausarbeitung.out" 1678219814 945 571dea73a33caa93a68ac459c588d3bc "pdflatex"
   "ausarbeitung.tex" 1678209770 1146 b7e9dc95f3921fc05f2cd1c777efb8e6 ""
   "images/ldavis_L-1_08.png" 1678196182 178410 c068bb9884e4bf344d6b9926872b329e ""
   "images/ldavis_L-1_12.png" 1678196195 170801 72b28a2729dc063a3dd946e376f910c4 ""
@@ -103,7 +103,7 @@
   "kapitel/02_researchAgenda.tex" 1678208386 3321 aa8e8fc184849f94e6d04ac15a60eb06 ""
   "kapitel/03_data.tex" 1678208557 4520 0f0ae54029ca1fb60582b8bbe577314f ""
   "kapitel/04_methods.tex" 1678208593 3347 dfbbb5e69abf8fa8e74756c084cc1ac2 ""
-  "kapitel/05_related.tex" 1678208695 2359 b0a5351abb3e454a4bd75d92fd182827 ""
+  "kapitel/05_related.tex" 1678219809 2372 8198fb799ac28a598fec7f2eb983180a ""
   "kapitel/06_experiment.tex" 1678208950 3903 430ebdb80184853c98939db57455b98f ""
   "kapitel/07_results.tex" 1678209809 16497 dad5567f18235ebd60e35e92f3e513e0 ""
   "kapitel/08_conclusion.tex" 1678201230 3098 2f4ac725244fea14fe15e81d3a6b78eb ""
